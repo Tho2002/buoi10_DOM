@@ -48,7 +48,7 @@
 //   .setAttribute("class", "noi dung thay doi");
 // console.log(test);
 
-//DOM EVEVT laf một tác động nào đó lên html để bắt được sự kiện và thực thi một chương trình nào đó
+//DOM EVEVT là một tác động nào đó lên html để bắt được sự kiện và thực thi một chương trình nào đó
 // ///danh sách một số sự kiện phổ biến
 //onload():đợi tất cả các sự kiện load xog sau đó rồi chạy onload thực hiện một chương trình nào đó trong onload
 
@@ -58,9 +58,27 @@
 // };
 
 //onblur// kích hoạt khi một phần tử mất trọng tâm (ko focus vào nữa)
-const input = document.querySelector("#input");
-console.log(input.value);
-input.onblur = () => {
-  console.log(input.value);
-  input.value = input.value.toUpperCase();
-};
+// const input = document.querySelector("#input");
+
+// input.onblur = (event) => {
+//   event.target.value = event.target.value.toUpperCase();
+//   event.target.style.background = "white";
+// };
+//  kích hoạt khi 1 phần tử mất trọng tâm
+// input.onfocus = (event) => {
+//   event.target.style.background = "red";
+// };
+//kích hoạt khi 1 phần tử đúng trọng tâm
+// input.onkeydown = (event) => {
+//   alert(event.key);
+// }; //kích hoạt khi 1 phím đucowj nhấn vào
+// input.onkeyup = (event) => {
+//   alert(event.key);
+// };
+// kích hoạt khi 1 phím được nhả ra
+
+//onclick():kích hoạt trên con chuột khi nhấn vào phần tử
+// const selectColor = document.querySelector("#color");
+// selectColor.onchange = (event) => {
+//   console.log(event.target.value);
+// };
